@@ -1,0 +1,61 @@
+* body {background-image: url("images/Background.jpg");
+    background-repeat: no-repeat;
+    background-color: rgb(18, 196, 27);
+    background-size: 100%;
+    background-position: left top;
+    background-attachment: scroll;}
+* fieldset.hangman {background-color: rgba(107, 69, 8, 0.801);
+    width: 42%;
+    float: left;
+    font-weight: 900;
+    height: 405px;
+    position: relative;
+    font-size: 18pt;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);}
+* fieldset.letters4 {background-color: rgba(107, 69, 8, 0.664);
+    width: 42%;
+    float: right;
+    font-weight: 900;
+    height: 125px;
+    position: relative;
+    font-size: 18pt;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(3, 1, 1);}
+* fieldset.word {background-color: rgba(107, 69, 8, 0.644);
+    width: 42%;
+    float: right;
+    font-weight: 900;
+    height: 125px;
+    border: top 3mm;
+    position: relative;
+    font-size: 18pt;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);}   
+* fieldset.guesses {background-color: rgba(107, 69, 8, 0.644);
+    width: 42%;
+    float: right;
+    font-weight: 900;
+    height: 100px;
+    border: top 3mm;
+    position: relative;
+    font-size: 18pt;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);}      
+* .block {width: 30%;
+    border: black;}
+* legend {background-color: rgb(153, 6, 6);
+    display: block;
+    color:rgb(7, 6, 4);}
+* button {width:10cm;
+    top: 500px;
+    left: 35%;
+    position: absolute;
+    font-size: 14pt;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;}
+* button:hover {
+    background-color: rgb(255, 240, 24);
+    color: rgb(0, 231, 77);
+}    

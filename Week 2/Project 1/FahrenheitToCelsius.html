@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahrenheit and Celsius History</title>
+    <link rel="stylesheet" href="Proj1Style.css" />
+</head>
+<body class="Fahr">
+    <div class="menu">
+        <ul><fieldset class="menu">
+            <li><a href=index.html>Main Menu</a></li>
+            <li><a href=FahrenheitToCelsius.html>Fahrenheit to Celsius</a></li>
+            <li><a href=LitersToGallons.html>Liters to Gallons</a></li>
+            <li><a href=MetersToFeet.html>Meters to Feet</a></li>
+            <li><a href=MphToKph.html>Mph to Kph</a></li>
+        </fieldset>
+        </ul>
+    </div class="body">
+    <fieldset class="Fahr"><legend class="Fahr">Conversion</legend>
+        <script>
+            var temp =prompt("Enter the Temperature Fahrenheit.");
+            console.log(temp);
+            var celsius=((temp-32)*(5/9));
+            alert("The temperature in Celsius is " + celsius + " degrees.");
+        </script>
+        <p>Let's start the conversion! (32°F − 32) × 5/9 = 0°C) </p>
+    </br>
+    </br>
+    </br>
+    </fieldset>
+    <fieldset class="Fahr"><legend class="Fahr">History of Fahrenheit</legend>
+        <p>Fahrenheit is a temperature scale named after the German-Dutch physicist Daniel Gabriel Fahrenheit (1686–1736), who proposed it in 1724. In this scale, the freezing point of water is 32 degrees Fahrenheit (written “32 °F”), and the boiling point is 212 degrees, placing the boiling and freezing points of water exactly 180 degrees apart.</p>
+    </fieldset>
+    <fieldset class="Fahr"><legend class="Fahr">History of Celsius</legend>
+        <p>Celsius is, or relates to, the Celsius temperature scale (previously known as the centigrade scale). The degree Celsius (symbol: °C) can refer to a specific temperature on the Celsius scale as well as serve as unit increment to indicate a temperature interval(a difference between two temperatures or an uncertainty). “Celsius” is named after the Swedish astronomer Anders Celsius (1701-1744), who developed a similar temperature scale two years before his death.
+
+            Until 1954, 0 °C on the Celsius scale was defined as the melting point of ice and 100 °C was defined as the boiling point of water under a pressure of one standard atmosphere; this close equivalence is taught in schools today. However, the unit “degree Celsius” and the Celsius scale are currently, by international agreement, defined by two different points: absolute zero, and the triple point of specially prepared water. This definition also precisely relates the Celsius scale to the Kelvin scale, which is the SI base unit of temperature (symbol: K). Absolute zero—the temperature at which nothing could be colder and no heat energy remains in a substance—is defined as being precisely 0 K and −273.15 °C. The triple point of water is defined as being precisely 273.16 K and 0.01 °C.
+            
+            On the Celsius scale, the freezing and boiling points of water are exactly 100 degrees apart, thus the unit of the Fahrenheit scale, a degree Fahrenheit, is 5/9 of a degree Celsius. The Fahrenheit scale coincides with the Celsius scale at -40 °F, which is the same temperature as -40 °C. <a href="https://www.diffen.com/difference/Celsius_vs_Fahrenheit">Celsius versus Fahrenheit</a></p>
+    </fieldset>
+    <script src="./FahrenheitToCelsius.js"></script>
+</body>
+<footer></footer>
+</html>

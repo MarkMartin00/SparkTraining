@@ -1,0 +1,54 @@
+/*Explanation 
+One of the frequent uses of loops is iterate over 
+data structures (collections of information). In other
+words, loops are often used to access and then perform 
+some operations on each element in a collection. 
+
+In this lab we will explore using loops to access 
+each element in an array. 
+*/ 
+
+/*Example*/ 
+let toDoList = ["grocery shop", "dishes","laundry", "pay bills"];
+console.log("To do list:");
+for(let index = 0; index<toDoList.length; index++){
+    console.log(toDoList[index]);
+}
+
+/*Explanation 
+We have a variable that stores the current index.
+We use let index = 0 to initialize the starting position. 
+Every time our loop finishes an iteration, it will 
+increase the value of this variable by some 
+amount (usually 1), and it will continue until 
+the index variable is equal to or greater than 
+the size of our array. In other words, it will 
+continue as long as the index variable is less 
+than the size.*/
+
+/*Your turn 
+Create an array called groceries. 
+Assign it some grocery items. 
+Then create a loop that prints each item out.*/
+let Groceries = ["tomatoes", "spaghetti","lettuce", "cucumbers"];
+console.log("Shopping List:");
+for(let index = 0; index<Groceries.length; index++){
+    console.log(Groceries[index]);
+}
+
+
+/*Your turn 
+Take the below array of integers and iterate
+over it. Check if each element is an even number 
+and if so, print the index of that element.*/
+let numbers = [1, 2, 5, 10, 12, 16, 21, 35, 47, 52];
+console.log("\n\nMore complex program");
+for (let index = 0; index < numbers.length; index++) {
+    if((2*1))
+    {console.log("Even numbers are ");
+
+    }else {
+        console.log(numbers);
+    }
+}
+// I cant seem to solve this. 

@@ -1,0 +1,50 @@
+* body {background-color: rgb(34, 41, 4);
+}
+
+* header {background-color: rgb(80, 29, 60);
+}
+
+* header {color: darkgoldenrod;
+    font-size: 20pt;
+
+}
+
+* div.column {width: 45%;
+    float: right;
+    color: white; 
+    background-color: rgb(8, 8, 71);
+    font-size: 12pt;
+    text-align:justify;
+    padding: 1vw;
+}
+* div.column {width: 45%;
+    float: left;
+    color: white; 
+    background-color: rgb(8, 8, 71);
+    font-size: 12pt;
+    text-align:justify;
+    padding: 1vw;
+}
+* p {color:white;
+    background-color:rgb(9, 9, 73)
+}
+* fieldset {background-color: forestgreen;
+}
+Legend {font-size: 18pt;
+font-family: 'Times New Roman', Times, serif;
+background-color: darkgoldenrod;
+}
+* ol {font-size: 16pt;
+font-family: 'Courier New', Courier, monospace;
+}
+* ul {font-size: 16pt;
+font-family: Arial, Helvetica, sans-serif;
+}
+* footer {font-size: 20pt;
+float: center;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 800;
+text-align: center;
+position: relative; 
+height: 300px;
+}

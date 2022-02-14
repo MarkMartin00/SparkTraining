@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mph to Kph History</title>
+    <link rel="stylesheet" href="Proj1Style.css" />
+</head>
+<body class="Mph">
+    <div class="menu">
+        <ul><fieldset class="menu">
+            <li><a href=index.html>Main Menu</a></li>
+            <li><a href=FahrenheitToCelsius.html>Fahrenheit to Celsius</a></li>
+            <li><a href=LitersToGallons.html>Liters to Gallons</a></li>
+            <li><a href=MetersToFeet.html>Meters to Feet</a></li>
+            <li><a href=MphToKph.html>Mph to Kph</a></li>
+        </fieldset>
+        </ul>
+    </div class="body">
+    <fieldset class="Mph"><legend class="Mph">Conversion</legend>
+        <p>The speed in kilometers per hour is equal to the speed in miles per hour multiplied by 1.609344. Since one mile per hour is equal to 1.609344 kilometers per hour, that's the conversion ratio used in the formula.</p>
+        <script>
+            var speed =prompt("What was your Miles Per Hour?");
+            console.log(speed);
+            var KPH=(speed*1.609344);
+            alert("This is " + KPH + " Kilometers Per Hour.");
+            </script>
+    </br>
+    </br>
+    </fieldset>
+    <fieldset class="Mph"><legend class="Mph">Sonic Speed</legend>
+    <p>Miles per hour (mph, m.p.h., MPH, or mi/h) is a British imperial and United States customary unit of speed expressing the number of miles travelled in one hour. It is used in the United Kingdom, the United States, and a number of smaller countries, most of which are UK or US territories, or have close historical ties with the UK or US. <a href="https://en.wikipedia.org/wiki/Miles_per_hour">reference</a>
+    </p>
+    </fieldset>
+    <script src="./MphToKph.js"></script>
+</body>
+<footer></footer>
+</html>

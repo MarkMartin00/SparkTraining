@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="Hangman.css"/>
+</head>
+
+<body> 
+    <fieldset class="hangman"> 
+        <div class="row">
+            <div class = "div2">
+                <canvas id ="hangman2"></canvas>
+            </div>
+    
+    </fieldset> 
+
+    <fieldset class="letters4"><Legend></Legend> 
+        <div class="row">
+        <div class= "div2" id = "letters1">
+        </div>
+        <div class="div2" id = "letters2">
+        </div>
+       
+    </fieldset>
+
+    <fieldset class="word"> 
+        <div class="row">
+            <div class = "div2" id ="word1">   
+            </div>
+        </div>
+
+    </fieldset>
+
+    <fieldset class="guesses"> 
+        <div class="row">
+            <div class = "div2" id ="guesses1">
+                <form action="guesses">
+                    <label for ="letter" placeholder="Guess a letter"></label>
+                    <input id="input-area" type="text.toUpperCase()" placeholder="Guess a letter"/>
+                    <input type ="button", value="submit"/>  
+                </form>
+                
+            </div>
+        </div>
+            <div class = "row"> 
+                <div class="div2" id = "guesses2">
+                </div>
+            </div>
+    </fieldset>
+    <div><button class ="block" onClick="window.location.reload();">New Game</button></div>
+    <script src= "Hangman.js"></script>
+</body>
+</html>

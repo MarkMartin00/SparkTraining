@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM Manipulation</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+    <div class = "row" id ="pageHeaderRow">
+        <div class = "col-12" id = "pageHeaderDiv">
+        <h1 id="pageHeader">DOM Manipulation</h1>
+        </div>
+    </div>
+    <div class= "row">
+        <div class= "col-12" id = "activityListDiv">
+            <h2 id="activityListHeader">Activities:</h2>
+        <ol id = "activityList">
+            <li>Modify existing elements
+                <ol>
+                    <li>Change content </li>
+                    <li>Change attribute values</li>
+                </ol>
+            </li>
+            <li>Add elements</li>
+            <li id = "modifyMe">Cats see better at night!</li>
+            <li id="removeMe">Remove Me!</li>
+        </ol>
+        <p>Dogs love people.</p>
+        </div>
+    </div>
+    
+    
+    <div class= "row">
+        <div class= "col-12" id = "formExample">
+            <form id ="formElement">
+                <label for ="nameInput">Name</label>
+                <input type="text" id = "nameInput" name="name"/>
+                <input type ="submit"/>
+                <input type="reset">
+            </form>
+            <script>
+                function submitForm() {
+                document.contact-form.submit();
+                document.contact-form.reset();
+                }
+            </script>
+        </div>
+    </div>
+        <div class = "row">
+            <div class="col-12" id = "inputValues">
+            </div>
+        </div>
+    
+    
+    
+    
+        <div class="row">
+        <div class = "col-12" id ="favoriteColorParent">
+            <form id ="formColorChild">
+                <label for ="inputColor">Favorite Color</label>
+                <input type="text" id = "inputColor" color="Favorite Color"/>
+                <input type ="submit"/>
+                <input type="reset">
+            </form>   
+        </div>
+    </div>
+        <div class = "row">
+            <div class="col-12" id = "colorValues">
+            </div>
+        </div>
+    <script src= "scripts/script.js"></script>
+    </body>
+</html>
