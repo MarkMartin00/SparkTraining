@@ -5,10 +5,8 @@ You have enrolled in a four-week-long intensive training program that will teach
 For this program, the content on RevaturePro will be the primary source of information. Below, you will find videos to watch, quizzes to take, lab assignments and small projects to complete. There are also some additional resources to review for the Spark program.
 
 Syllabus
+
     Week 1: Introduction to Programming, HTML, and CSS
-
     Week 2: Programming with JavaScript
-
     Week 3: Object Oriented Programming and Java
-
     Week 4: More Java and Data Structures.
